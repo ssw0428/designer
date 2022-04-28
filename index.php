@@ -23,7 +23,9 @@ include "/resources/include/head.php";
             </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">
+                        <img src="resources/images/section-2-img.jpg" alt="">
+                    </div>
                     <div class="swiper-slide">Slide 2</div>
                     <div class="swiper-slide">Slide 3</div>
                     <div class="swiper-slide">Slide 4</div>
