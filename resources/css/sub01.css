@@ -1,0 +1,21 @@
+.sub_wrap {height: 1000px;}
+.sub_wrap .sub_header {position: relative; box-sizing: border-box; }
+.sub_wrap .sub_header .black-box {position: absolute; top:0; left: 0; width:100%; height: 290px; background-color: rgb(0, 0, 0); opacity: 0.4; }
+.sub_wrap .sub_header .sub-title {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 43px; color: white;}
+.sub_wrap .sub_header > img {width: 100%; height: 290px;}
+
+.sub_wrap .sub_content {width: 1100px; margin-left: auto; margin-right: auto;}
+.sub_wrap .sub_content-1 {margin-top: 100px;}
+.sub_wrap .sub_content-1 .sub_title {font-size: 25px; font-weight: 500;}
+.sub_wrap .sub_content-1 .sub_box {justify-content: space-between;} 
+.sub_wrap .sub_content-1 .sub_box .form-1 {}
+.sub_wrap .sub_content-1 .sub_box .form-2 {}
+.sub_wrap .sub_content-1 .sub_box .form-list .part > input {border: 1px solid rgb(173, 173, 173); resize: none; width: 450px; height: 40px;}
+.sub_wrap .sub_content-1 .sub_box .form-list > p > select {border: 1px solid rgb(173, 173, 173); resize: none; width: 450px; height: 45px;}
+.sub_wrap .sub_content-1 .sub_box .form-list > p > strong {display:inline-block; width: 70px;}
+
+.sub_wrap .sub_content-2 > textarea {border: 1px solid rgb(173, 173, 173); resize: none;}
+
+.btn_wrap {margin-top: 50px; font-size: 0; text-align: center;}
+.btn_wrap .submit {background: #00687f;}
+.btn_wrap > button {min-width: 180px; margin: 0 2px; padding: 0 15px; font-size: 18px; font-weight: 700; line-height: 50px; appearance: none; color: white; vertical-align: top; display: inline-block; box-sizing: inherit; text-align: center; border: 0; outline: 0;}
