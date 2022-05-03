@@ -24,22 +24,88 @@ include "/resources/include/head.php";
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="resources/images/section-2-img.jpg" alt="">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                        <div class="text-box">
+                            <h4>Hair Designer</h3>
+                            <h3>서석원 원장</h3>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
+                        </div>
                     </div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-box">
+                            <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </section>
         <section class="section common section_part_3 section-3" data-anchor="section-3">세션 3 유튜브 인스타그램 홍보 // 이벤트</section>
-        <section class="section common section_part_4 section-4" data-anchor="section-4">오시는 길</section>
+        <section class="section common section_part_4 section-4" data-anchor="section-4">
+            <div class="section-4-left">
+                <ul>
+                    <li>
+                        <a href="">d</a>
+                    </li>
+                    <li>
+                        <a href="">d</a>
+                    </li>
+                    <li>
+                        <a href="">d</a>
+                    </li>
+                    <li>
+                        <a href="">s</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section-4-right">
+                <div id="map" style="width:100%;height:100%;"></div>
+            </div>
+        </section>
     </div>
 </div>
 

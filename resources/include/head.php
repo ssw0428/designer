@@ -27,12 +27,11 @@
     <!-- 아울 캐러셀 불러오기, 제이쿼리 보다 밑에 있어야 합니다. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
     <!--네이버 api-->
-    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=jq4bm0ehm1"></script>
-    
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=tb45ot3bcw"></script>
+
     <!--풀 페이지-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
@@ -41,7 +40,38 @@
 </head>
 
 <body>
-        <!--메인 메뉴바-->
+    <!--메인 메뉴바-->
+
+    <div class="main-menu-logo">
+        <div class="img-box">
+            <img src="resources/images/main-logo-1.png" alt="">
+        </div>
+    </div>
+    <section class="main-menu-box">
+        <div class="logo">
+            <div class="img-box">
+                <img src="resources/images/main-logo-2.png" alt="">
+            </div>
+        </div>
+        <ul class="main-manu-list">
+            <li data-menuanchor="section-1" class="active" id="btn1">
+                <a href="#section-1">HOME</a>
+            </li>
+            <li data-menuanchor="section-2" id="btn2">
+                <a href="#section-2">ABOUT</a>
+            </li>
+            <li data-menuanchor="section-3" id="btn3">
+                <a href="#section-3">DESIGNER</a>
+            </li>
+            <li data-menuanchor="section-4" id="btn4">
+                <a href="#section-4">CONTACT</a>
+            </li>
+        </ul>
+        <div class="side-footer">
+
+        </div>
+    </section>
+    <!--
     <header id="main-menu-box" class="main-menu-bar">
         <div class="inner">
             <div class="width-size con">
@@ -73,3 +103,4 @@
             </div>
         </div>
     </header>
+-->

@@ -1,7 +1,7 @@
 
 /* 조에룸 시작 */
 
-/* 조에룸 메뉴바 시작 */
+/* 조에룸 메뉴바 시작 
 #main-menu-box {position: relative;}
 #main-menu-box .inner {position: fixed; top: 40%; right: 0; transform: translate(-50% -50%); z-index: 100; margin-right: 30px; }
 #main-menu-box .inner .width-size {}
@@ -14,14 +14,48 @@
 #main-menu-box .inner .width-size .menu-bar > ul > li > a > span {position: relative; border: 1px solid black; border-radius: 50%; width: 100px; height: 100px; padding: 7px;}
 #main-menu-box .inner .width-size .menu-bar > ul > li > a > span::after {content: ""; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); width: 0; height: 4px; background-color: #040485; transition: width 0.3s;}
 #main-menu-box .inner .width-size .menu-bar > ul > li:hover > a > span::after {width: 100%;}
+*/
 
+/*메인 메뉴 로고!*/
+.main-menu-logo {position: fixed; right: 5%; top: 50%; transform: translate(0, -50%); z-index: 110; transition: right 1s; animation-duration: 1s;}
+.main-menu-logo:hover {animation-name:motion;}
+.main-menu-logo.active {right: 11%;}
+.main-menu-logo .img-box {}
+.main-menu-logo .img-box > img {}
+
+@keyframes motion {
+  0% {
+    top: 50%;
+  }
+  30% {
+    top: 48%;
+  }
+  60% {
+    top: 50%;
+  } 
+  90% {
+    top: 48%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+/*메인 메뉴 시작*/
+.main-menu-box {background-color: #057e0f; position: fixed; top: 0; right: -250px; height: 100%; width: 240px; z-index: 100; transition: right 1s;}
+.main-menu-box.active {right: 0;}
+
+.main-menu-box > ul {position: absolute; width: 100%; top: 50%; right: 0; transform: translate(0, -50%);}
+.main-menu-box > ul > li {text-align:center; margin: 5px 0;}
+.main-menu-box > ul > li > a { background-color: #e79110; display: block; padding: 15px;}
 
 /*section-1 동영상*/
 #container {}
 #container #fullpage {}
 #container #fullpage .section-1 {}
 #container #fullpage .section-1 .bg {position: relative; width: 100%; height: 100%; overflow: hidden; margin: 0px auto;}
-#container #fullpage .section-1 .bg > video {width: 100%; height: 100%;}
+#container #fullpage .section-1 .bg > video {width: 100%; height: 100vh; object-fit: cover;}
+#container #fullpage .section-1 .bg .wrap {border:10px solid red; width:100%; height: 100%; background: linear-gradient(to left, rgb(113, 113, 255), rgb(138, 255, 146)); mix-blend-mode: overlay;}
 #container #fullpage .section-1 .bg > video > source {}
  
 #container #fullpage .section-1 .bg .text {position: absolute; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
@@ -31,6 +65,7 @@
   /*------------------*/
   /* Layout (No Edit) */
   /*------------------*/
+  /*
   @media(max-width:664px) {
     .bg {
       height: auto;
@@ -42,14 +77,64 @@
       font-size: 24px;
     }
   }
+*/
 
   /*section-2 슬라이드*/
-  #container #fullpage .section-2 {position: relative;}
-  #container #fullpage .section-2 .swiper {position: absolute; width: 70%; height: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+  #container #fullpage .section-2 {position: relative; }
+  #container #fullpage .section-2 .swiper {position: absolute;  width: 70%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
   #container #fullpage .section-2 .swiper .swiper-wrapper {}
-  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide {border: 2px solid pink; width: 100%;}
-  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover {background-color: black;}
-  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide > img {width:100%; height: 100%; display: block; object-fit: cover;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide {border: 2px solid pink; box-sizing: border-box;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .image-box {position: relative; overflow: hidden; box-sizing: border-box; width: 100%;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .image-box::before {content: ""; display: block; background-color: rgba(0, 0, 0, .0); position: absolute; width:100%; height: 100%; top:0; left: 0; right: 0; bottom: 0; transition: background-color 0.4s; z-index: 10;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .image-box::before {background-color: rgba(0, 0, 0, 0.4);}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .image-box > img {width:100%; height: 100%; display: block; object-fit: cover; transition:transform 0.7s;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .image-box > img {transform:scale(1.2);}
 
-  #container #fullpage .section-2 .section-2-title {position: absolute; top: 10%; left: 50%; transform: translate(-50%, 0);}
-  #container #fullpage .section-2 .section-2-title .title { border: 2px solid red;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box {position: absolute; width: 100%; height: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); transition: 0.5s; opacity: 0; z-index: 10; text-align: center;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .text-box {opacity: 1;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > h4 {margin-top: 80px; font-size: 30px; color: white;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > h3 {font-size: 30px; color: white;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > p {display: block; color: white;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > a {color: white; display: block; font-size: 20px; margin-top: 20px; padding: 10px; border: 5px solid red;}
+  .btn-1 {
+    letter-spacing: 0;
+    -webkit-transition: all .28s ease-in-out;
+    transition: all .28s ease-in-out;
+  }
+  .btn-1:hover,
+  .btn-1:focus,
+  .btn-1:active {
+    letter-spacing: 8px;
+  }
+  .btn-1:after,
+  .btn-1:before {
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all .28s ease-in-out;
+    transition: all .28s ease-in-out;
+    width: 0;
+  }
+  .btn-1:hover:after,
+  .btn-1:hover:before {
+    border-color: #fff;
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 350ms ease-in-out;
+    width: 20%;
+  }
+  .btn-1:hover:before {
+    bottom: auto;
+    top: 0;
+  }
+
+  #container #fullpage .section-2 .section-2-title {position: absolute; top: 5%; left: 50%; transform: translate(-50%, 0);}
+  #container #fullpage .section-2 .section-2-title .title { font-size: 24px;}
+  
+
+  /*section-4*/
+  #container #fullpage .section-4 {position: relative;}
+  #container #fullpage .section-4 .section-4-left {float: left; width: 50%; height: 100%; background-color: violet; box-sizing: border-box; display: table;}
+  #container #fullpage .section-4 .section-4-right {float: right; width: 50%; height: 100%; position: relative;}
