@@ -17,9 +17,9 @@
 */
 
 /*메인 메뉴 로고!*/
-.main-menu-logo {position: fixed; right: 5%; top: 50%; transform: translate(0, -50%); z-index: 110; transition: right 1s; animation-duration: 1s;}
+.main-menu-logo {position: fixed; right: 3%; top: 50%; transform: translate(0, -50%);  z-index: 110; transition: right 0.7s; animation-duration: 1.2s;}
 .main-menu-logo:hover {animation-name:motion;}
-.main-menu-logo.active {right: 11%;}
+.main-menu-logo.active { right: 7%;}
 .main-menu-logo .img-box {}
 .main-menu-logo .img-box > img {}
 
@@ -28,13 +28,13 @@
     top: 50%;
   }
   30% {
-    top: 48%;
+    top: 49%;
   }
   60% {
     top: 50%;
   } 
   90% {
-    top: 48%;
+    top: 49%;
   }
   100% {
     top: 50%;
@@ -42,18 +42,26 @@
 }
 
 /*메인 메뉴 시작*/
-.main-menu-box {background-color: #057e0f; position: fixed; top: 0; right: -250px; height: 100%; width: 240px; z-index: 100; transition: right 1s;}
+.main-menu-box {background-color: #FFE4B5; position: fixed; top: 0; right: -260px; height: 100%; width: 250px; z-index: 100; transition: right 1s;}
 .main-menu-box.active {right: 0;}
 
+.main-menu-box .logo {margin-top: 40px;}
+.main-menu-box .logo .img-box {width: 80%; display: block; margin: auto;}
+.main-menu-box .logo .img-box > img {}
+
 .main-menu-box > ul {position: absolute; width: 100%; top: 50%; right: 0; transform: translate(0, -50%);}
-.main-menu-box > ul > li {text-align:center; margin: 5px 0;}
-.main-menu-box > ul > li > a { background-color: #e79110; display: block; padding: 15px;}
+.main-menu-box > ul > li {text-align:center; margin: 20px 0; background-color: #FFE4B5; transition: background-color 0.5s;}
+.main-menu-box > ul > li:hover {background-color: #B38164;}
+.main-menu-box > ul > li > a.active {}
+.main-menu-box > ul > li > a {display: block; padding: 20px; font-size: 23px; font-weight: 500;}
+.main-menu-box > ul > li:hover > a {font-weight: 700;}
+
 
 /*section-1 동영상*/
 #container {}
 #container #fullpage {}
 #container #fullpage .section-1 {}
-#container #fullpage .section-1 .bg {position: relative; width: 100%; height: 100%; overflow: hidden; margin: 0px auto;}
+#container #fullpage .section-1 .bg {position: relative; width: 100%; height: 100vh; overflow: hidden; margin: 0px auto;}
 #container #fullpage .section-1 .bg > video {width: 100%; height: 100vh; object-fit: cover;}
 #container #fullpage .section-1 .bg .wrap {border:10px solid red; width:100%; height: 100%; background: linear-gradient(to left, rgb(113, 113, 255), rgb(138, 255, 146)); mix-blend-mode: overlay;}
 #container #fullpage .section-1 .bg > video > source {}
@@ -62,23 +70,6 @@
 #container #fullpage .section-1 .bg .text > p {text-align: center; font-size: 48px; color:#ffffff}
   
   
-  /*------------------*/
-  /* Layout (No Edit) */
-  /*------------------*/
-  /*
-  @media(max-width:664px) {
-    .bg {
-      height: auto;
-    }
-    video {
-      height: 400px;
-    }
-    .text p {
-      font-size: 24px;
-    }
-  }
-*/
-
   /*section-2 슬라이드*/
   #container #fullpage .section-2 {position: relative; }
   #container #fullpage .section-2 .swiper {position: absolute;  width: 70%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
@@ -106,8 +97,8 @@
     #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 {position: absolute; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); transition: 0.5s; opacity: 0; z-index: 10; text-align: center; }
     #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .text-box-4 {opacity: 1;}
     #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 > p {display: block; color: white;}
-    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 > a {color: white; display: block; font-size: 20px; margin-top: 20px; padding: 10px;}
-
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 > a {color: white; display: block; font-size: 26px; margin-top: 20px; padding: 10px;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 > a:hover {color:#FFC8A8; font-size: 28px;}
 
     .btn-1 {
     letter-spacing: 0;
@@ -121,7 +112,7 @@
   }
   .btn-1:after,
   .btn-1:before {
-    border: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
     bottom: 0;
     content: " ";
     display: block;
@@ -133,7 +124,7 @@
   }
   .btn-1:hover:after,
   .btn-1:hover:before {
-    border-color: #fff;
+    border-color: #FFC8A8;
     -webkit-transition: width 350ms ease-in-out;
     transition: width 350ms ease-in-out;
     width: 22%;
@@ -143,8 +134,8 @@
     top: 0;
   }
 
-  #container #fullpage .section-2 .section-2-title {position: absolute; top: 5%; left: 50%; transform: translate(-50%, 0);}
-  #container #fullpage .section-2 .section-2-title .title { font-size: 24px;}
+  #container #fullpage .section-2 .section-2-title {position: absolute; top: 6%; left: 50%; transform: translate(-50%, 0);}
+  #container #fullpage .section-2 .section-2-title .title { font-size: 40px; color: #FFC8A8;}
   
 
   /*section-4*/
@@ -152,7 +143,7 @@
   #container #fullpage .section-4 .section-4-left {background-color: #FFE4B5; float: left; width: 50%; height: 100%; box-sizing: border-box; display: table;}
   #container #fullpage .section-4 .section-4-right {float: right; width: 50%; height: 100%; position: relative;}
 
-  #container #fullpage .section-4 .section-4-left .section-4-left-inner {width: 100%; margin-top: 100px;}
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner {margin: 0 auto; width: 80%; margin-top: 100px; }
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > h2 {}
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > li {overflow: hidden; padding-left: 105px; position: relative; line-height: 40px; border-bottom: 1px dotted #404040;}
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > li > strong {position: absolute; left: 0; top: 0;}

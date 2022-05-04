@@ -47,6 +47,7 @@
             <img src="resources/images/main-logo-1.png" alt="">
         </div>
     </div>
+    
     <section class="main-menu-box">
         <div class="logo">
             <div class="img-box">
@@ -55,7 +56,7 @@
         </div>
         <ul class="main-manu-list">
             <li data-menuanchor="section-1" class="active" id="btn1">
-                <a href="#section-1">HOME</a>
+                <a class="active" href="#section-1">HOME</a>
             </li>
             <li data-menuanchor="section-2" id="btn2">
                 <a href="#section-2">ABOUT</a>

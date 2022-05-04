@@ -10,7 +10,7 @@ include "/resources/include/head.php";
                     <source src="resources/images/test-video.mp4" type="video/mp4">
                 </video>
                 <div class="text">
-                    <p>Lorem Ipsum Dolor</p>
+                    <p></p>
                 </div>
             </div>
         </section>
