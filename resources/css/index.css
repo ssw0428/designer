@@ -83,20 +83,33 @@
   #container #fullpage .section-2 {position: relative; }
   #container #fullpage .section-2 .swiper {position: absolute;  width: 70%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
   #container #fullpage .section-2 .swiper .swiper-wrapper {}
-  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide {border: 2px solid pink; box-sizing: border-box;}
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide {box-sizing: border-box;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .image-box {position: relative; overflow: hidden; box-sizing: border-box; width: 100%;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .image-box::before {content: ""; display: block; background-color: rgba(0, 0, 0, .0); position: absolute; width:100%; height: 100%; top:0; left: 0; right: 0; bottom: 0; transition: background-color 0.4s; z-index: 10;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .image-box::before {background-color: rgba(0, 0, 0, 0.4);}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .image-box > img {width:100%; height: 100%; display: block; object-fit: cover; transition:transform 0.7s;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .image-box > img {transform:scale(1.2);}
 
+  /*section-2 슬라이드 hover 할 때 -1*/
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box {position: absolute; width: 100%; height: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); transition: 0.5s; opacity: 0; z-index: 10; text-align: center;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .text-box {opacity: 1;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > h4 {margin-top: 80px; font-size: 30px; color: white;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > h3 {font-size: 30px; color: white;}
   #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > p {display: block; color: white;}
-  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > a {color: white; display: block; font-size: 20px; margin-top: 20px; padding: 10px; border: 5px solid red;}
-  .btn-1 {
+  #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box > a {color: white; display: block; font-size: 20px; margin-top: 20px; padding: 10px;}
+
+    /*section-2 슬라이드 hover 할 때 -2*/
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-3 {position: absolute; width: 100%; bottom: 0; left: 50%; transform: translate(-50%, 0); transition: 0.5s; opacity: 1; z-index: 10; text-align: center;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .text-box-3 {opacity: 1; bottom: 72%;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-3 > h5 {margin-top: 10px; font-size: 20px; color: white;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-3 > h6 {margin-top: -20px; font-size: 22px; color: white;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 {position: absolute; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%); transition: 0.5s; opacity: 0; z-index: 10; text-align: center; }
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide:hover .text-box-4 {opacity: 1;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 > p {display: block; color: white;}
+    #container #fullpage .section-2 .swiper .swiper-wrapper .swiper-slide .text-box-4 > a {color: white; display: block; font-size: 20px; margin-top: 20px; padding: 10px;}
+
+
+    .btn-1 {
     letter-spacing: 0;
     -webkit-transition: all .28s ease-in-out;
     transition: all .28s ease-in-out;
@@ -123,7 +136,7 @@
     border-color: #fff;
     -webkit-transition: width 350ms ease-in-out;
     transition: width 350ms ease-in-out;
-    width: 20%;
+    width: 22%;
   }
   .btn-1:hover:before {
     bottom: auto;
@@ -136,5 +149,11 @@
 
   /*section-4*/
   #container #fullpage .section-4 {position: relative;}
-  #container #fullpage .section-4 .section-4-left {float: left; width: 50%; height: 100%; background-color: violet; box-sizing: border-box; display: table;}
+  #container #fullpage .section-4 .section-4-left {background-color: #FFE4B5; float: left; width: 50%; height: 100%; box-sizing: border-box; display: table;}
   #container #fullpage .section-4 .section-4-right {float: right; width: 50%; height: 100%; position: relative;}
+
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner {width: 100%; margin-top: 100px;}
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner > h2 {}
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner > li {overflow: hidden; padding-left: 105px; position: relative; line-height: 40px; border-bottom: 1px dotted #404040;}
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner > li > strong {position: absolute; left: 0; top: 0;}
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner > li > p {}

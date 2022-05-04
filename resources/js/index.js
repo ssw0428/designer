@@ -1,7 +1,7 @@
 //fullpage
 function fullPage_init() {
     new fullpage('#fullpage', {
-        sectionsColor: ['yellow', 'white', '#C0C0C0', '#ADD8E6'],
+        sectionsColor: ['yellow', 'white', '#C0C0C0', ''],
       });    
 }
 
@@ -16,6 +16,9 @@ function slide_init() {
       
         slidesPerView: 3,
         spaceBetween: 30,
+        autoplay: 3000,
+        autoplayDisableOnInteraction: false,
+        loop: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -62,21 +65,92 @@ function NaverMap__init() {
 
   // 지도에 해당 좌표 마커(아이콘 설정)
   var markerOptions = {
-    position: new naver.maps.LatLng(36.3293207, 127.4188361), //마커찍을 좌표
+    position: new naver.maps.LatLng(36.3293207, 127.4188361),//마커찍을 좌표
     map: map,
     icon: {
-        url: 'resources/img/marker.png', //아이콘 경로
-        size: new naver.maps.Size(22, 36), //아이콘 크기
-        origin: new naver.maps.Point(0, 0),
-        anchor: new naver.maps.Point(11, 35)
+      url: 'resources/images/main-logo-2.png',
+      size: new naver.maps.Size(200, 200),
+      origin: new naver.maps.Point(0, 0),
+      anchor: new naver.maps.Point(80, 120)
     }
   };
 
   // 마커 생성
   var marker = new naver.maps.Marker(markerOptions);
+  
 
 }
 
 $(function () {
   NaverMap__init();
 })
+
+
+//다중마커 표시하는 자바
+// function initMap() { 
+	
+// 	var areaArr = new Array();  // 지역을 담는 배열 ( 지역명/위도경도 )
+// 	areaArr.push(
+// 			/*지역구 이름*/			/*위도*/					/*경도*/				
+// 		 {location : '주차장 입구' , lat : '36.32810553' , lng : '127.41850078'},
+//      {location : 'ZOE-ROOM' , lat : '36.3293207' , lng : '127.4188361'} 
+// 	);
+	
+	
+	
+// 	let markers = new Array(); // 마커 정보를 담는 배열
+// 	let infoWindows = new Array(); // 정보창을 담는 배열
+	
+// 	var map = new naver.maps.Map('map', {
+//         center: new naver.maps.LatLng(36.3293207, 127.4188361), //지도 시작 지점
+//         zoom: 18
+//     });
+	
+	
+	
+	
+// 	for (var i = 0; i < areaArr.length; i++) {
+// 		// 지역을 담은 배열의 길이만큼 for문으로 마커와 정보창을 채워주자 !
+
+// 	    var marker = new naver.maps.Marker({
+// 	        map: map,
+// 	        title: areaArr[i].location, // 지역구 이름 
+// 	        position: new naver.maps.LatLng(areaArr[i].lat , areaArr[i].lng) // 지역구의 위도 경도 넣기
+
+// 	    });
+	    
+// 	    /* 정보창 */
+// 		 var infoWindow = new naver.maps.InfoWindow({
+// 		     content: '<div style="width:200px;text-align:center;padding:10px;"><b>' + areaArr[i].location + '</b><br> - 네이버 지도 - </div>'
+// 		 }); // 클릭했을 때 띄워줄 정보 HTML 작성
+	    
+// 		 markers.push(marker); // 생성한 마커를 배열에 담는다.
+// 		 infoWindows.push(infoWindow); // 생성한 정보창을 배열에 담는다.
+// 	}
+    
+	 
+//     function getClickHandler(seq) {
+		
+//             return function(e) {  // 마커를 클릭하는 부분
+//                 var marker = markers[seq], // 클릭한 마커의 시퀀스로 찾는다.
+//                     infoWindow = infoWindows[seq]; // 클릭한 마커의 시퀀스로 찾는다
+
+//                 if (infoWindow.getMap()) {
+//                     infoWindow.close();
+//                 } else {
+//                     infoWindow.open(map, marker); // 표출
+//                 }
+//     		}
+//     	}
+    
+//     for (var i=0, ii=markers.length; i<ii; i++) {
+//     	console.log(markers[i] , getClickHandler(i));
+//         naver.maps.Event.addListener(markers[i], 'click', getClickHandler(i)); // 클릭한 마커 핸들러
+//     }
+// }
+
+// $(function() {
+	
+// 	initMap();
+	
+// });
