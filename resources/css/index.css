@@ -17,9 +17,9 @@
 */
 
 /*메인 메뉴 로고!*/
-.main-menu-logo {position: fixed; right: 3%; top: 50%; transform: translate(0, -50%);  z-index: 110; transition: right 0.7s; animation-duration: 1.2s;}
+.main-menu-logo {position: fixed; right: 4%; top: 50%; transform: translate(0, -50%);  z-index: 110; transition: right 0.7s; animation-duration: 1.2s;}
 .main-menu-logo:hover {animation-name:motion;}
-.main-menu-logo.active { right: 7%;}
+.main-menu-logo.active { right: 10%;}
 .main-menu-logo .img-box {}
 .main-menu-logo .img-box > img {}
 
@@ -50,11 +50,14 @@
 .main-menu-box .logo .img-box > img {}
 
 .main-menu-box > ul {position: absolute; width: 100%; top: 50%; right: 0; transform: translate(0, -50%);}
-.main-menu-box > ul > li {text-align:center; margin: 20px 0; background-color: #FFE4B5; transition: background-color 0.5s;}
+.main-menu-box > ul > li {text-align:center; padding: 10px 0; background-color: #FFE4B5; transition: background-color 0.5s;}
 .main-menu-box > ul > li:hover {background-color: #B38164;}
 .main-menu-box > ul > li > a.active {}
 .main-menu-box > ul > li > a {display: block; padding: 20px; font-size: 23px; font-weight: 500;}
 .main-menu-box > ul > li:hover > a {font-weight: 700;}
+
+.main-menu-box .side-footer {position: absolute; right: 10px; bottom: 40px; left: 10px; text-align: center;}
+.main-menu-box .side-footer .sf-adress {margin-top: 12px; font-size: 12px; line-height: 20px; padding: 0 10px; text-align: left;}
 
 
 /*section-1 동영상*/
@@ -143,8 +146,20 @@
   #container #fullpage .section-4 .section-4-left {background-color: #FFE4B5; float: left; width: 50%; height: 100%; box-sizing: border-box; display: table;}
   #container #fullpage .section-4 .section-4-right {float: right; width: 50%; height: 100%; position: relative;}
 
-  #container #fullpage .section-4 .section-4-left .section-4-left-inner {margin: 0 auto; width: 80%; margin-top: 100px; }
+  #container #fullpage .section-4 .section-4-left .section-4-left-inner {margin: 0 auto; width: 90%; margin-top: 30px; }
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > h2 {}
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > li {overflow: hidden; padding-left: 105px; position: relative; line-height: 40px; border-bottom: 1px dotted #404040;}
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > li > strong {position: absolute; left: 0; top: 0;}
   #container #fullpage .section-4 .section-4-left .section-4-left-inner > li > p {}
+
+  #container #fullpage .section-4 .section-4-left .content-box {margin:0 auto; width: 90%; margin-top: 10px;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner {position: relative;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-left {float: left; width: 50%; height: 100%; box-sizing: border-box; display: table; border:1px solid pink;}
+  
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right {float: right; width: 50%; height: 100%; position: relative; box-sizing: border-box;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right .inner {box-sizing: border-box;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right .inner > li {box-sizing: border-box;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right .inner > li:nth-child(1) {float:left; width: 50%; border: 1px solid red; height: 200px;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right .inner > li:nth-child(2) {float: right; width: 50%; margin-left: 20px; border: 1px solid green;}
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right .inner > li:nth-child(3) {float: left; width: 50%; border: 1px solid red; height: 200px; }
+  #container #fullpage .section-4 .section-4-left .content-box .content-box-inner .content-box-right .inner > li:nth-child(4) {float: right; width: 50%; border: 1px solid green;}

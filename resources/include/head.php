@@ -69,7 +69,11 @@
             </li>
         </ul>
         <div class="side-footer">
-
+            <div class="sf-adress">
+                서울특별시 강남구 청담동 63-14 JUNO & BEAUTY 5층
+                <br>
+                Copyright ⓒ 2017 JUNOHAIR.COM. All rights Reserved.
+            </div>
         </div>
     </section>
     <!--

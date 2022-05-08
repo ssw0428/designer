@@ -103,7 +103,7 @@ include "/resources/include/head.php";
         <section class="section common section_part_4 section-4" data-anchor="section-4">
             <div class="section-4-left">
                 <ul class="section-4-left-inner">
-                    <h2>INFORMATION</h2>
+                    <h3>INFORMATION</h3>
                     <li>
                         <strong>우편번호</strong>
                         <p>06073</p>
@@ -126,6 +126,37 @@ include "/resources/include/head.php";
                         <p>하늘 서적 옆</p>
                     </li>
                 </ul>
+                <section class="content-box">
+                    <div class="content-box-inner">
+                        <li class="content-box-left">
+                            <a href="">
+                                <h3>zoe-room YOUTUBE</h3>
+                            </a>
+                        </li>
+                        <ul class="content-box-right">
+                            <a href="">
+                                <h3>zoe-room INSTAGRAM</h3>
+                            </a>
+                            <div class="inner">
+                            <li>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <a href=""></a>
+                            </li>
+                            </div>
+
+                            <div class="inner">
+                            <li>
+                                <a href=""></a>
+                            </li>
+                            <li>
+                                <a href=""></a>
+                            </li>
+                            </div>
+                        </ul>
+                    </div>
+                </section>
             </div>
             <div class="section-4-right">
                 <div id="map" style="width:100%;height:100%;"></div>
