@@ -136,10 +136,17 @@
     bottom: auto;
     top: 0;
   }
-
+  #container #fullpage .section-2 {position: relative;}
+  #container #fullpage .section-2 .bg {text-align: center;}
   #container #fullpage .section-2 .section-2-title {position: absolute; top: 6%; left: 50%; transform: translate(-50%, 0);}
   #container #fullpage .section-2 .section-2-title .title { font-size: 40px; color: #FFC8A8;}
   
+ /*section-3*/
+ #container #fullpage .section-3 {position: relative;}
+ #container #fullpage .section-3 .section-3-box {position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0); border: 2px solid green; width: 80%;}
+ #container #fullpage .section-3 .section-3-box > h3 {border: 2px solid red;}
+
+
 
   /*section-4*/
   #container #fullpage .section-4 {position: relative;}

@@ -16,6 +16,9 @@ include "/resources/include/head.php";
         </section>
 
         <section class="section common section_part_2 section-2" data-anchor="section-2">
+            <div class="bg">
+                <img src="resources/images/section-2-bg.png" alt="">
+            </div>
             <div class="section-2-title">
                 <div class="title">
                     조에룸's Designer
@@ -46,7 +49,7 @@ include "/resources/include/head.php";
                         </div>
                         <div class="text-box-3">
                             <h5>Hair Designer</h3>
-                            <h6>서석원 원장</h3>
+                                <h6>서석원 원장</h3>
                         </div>
                         <div class="text-box-4">
                             <p>2017년 미용계 입문</p>
@@ -99,7 +102,58 @@ include "/resources/include/head.php";
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <section class="section common section_part_3 section-3" data-anchor="section-3">세션 3 유튜브 인스타그램 홍보 // 이벤트</section>
+
+        <section class="section common section_part_3 section-3" data-anchor="section-3">
+            <div class="section-3-box">
+                <h3>ABOUT</h3>
+                <div class="sectiob-3-main-text">
+                    바쁜 현대 사회에서 쉼이 필요할 때, (나를 가꿀 수 있는 공간,) <br>
+                    ZOE-ROOM에서 <br>
+                    -------- <br>
+                </div>
+                <div class="text-box flex">
+                    <div class="text-box-list-1">
+                        <strong>
+                            Natural Space with Flowers and Trees
+                            <br>
+                            자연이 숨 쉬는 평온한 공간
+                        </strong>
+                        <p>
+                            애브뉴준오의 첫걸음은 싱그러운 대나무의 초록빛으로 시작합니다.
+                            <br>
+                            곳곳에 어우러진 꽃과 나무의 부드러운 정취가 살아있습니다.
+                        </p>
+                    </div>
+                    <div class="text-box-list-2">
+                        <strong>
+                            Romantic Salon with Greek Goddess
+                            <br>
+                            그리스 신화의 여신의 이름을 딴 로맨틱 살롱
+                        </strong>
+                        <p>
+                            애브뉴준오는 그리스 신화의 여신 이름과 여신의 상징을 담아 공간을 구성했습니다.
+                            <br>
+                            열정적이고 아름다우며 당당한 여신처럼 고객의 아름다움도 당당하게 표현하는 곳입니다.
+                        </p>
+                    </div>
+                    <div class="text-box-list-3">
+                        <strong>
+                            Optimizing Bespoke Service with Beauty Experts
+                            <br>
+                            전문가의 감각과 효율적인 뷰티 서비스의 만남
+                        </strong>
+                        <p>
+                            헤어 디자이너뿐만 아니라. 메이크업 아티스트, 스칼프 테라피스트 등
+                            <br>
+                            토털 뷰티 서비스를 위한 전문가들이 상주하며 애브뉴준오 고객에
+                        </p>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
         <section class="section common section_part_4 section-4" data-anchor="section-4">
             <div class="section-4-left">
                 <ul class="section-4-left-inner">
@@ -138,21 +192,21 @@ include "/resources/include/head.php";
                                 <h3>zoe-room INSTAGRAM</h3>
                             </a>
                             <div class="inner">
-                            <li>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <a href=""></a>
-                            </li>
+                                <li>
+                                    <a href=""></a>
+                                </li>
+                                <li>
+                                    <a href=""></a>
+                                </li>
                             </div>
 
                             <div class="inner">
-                            <li>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <a href=""></a>
-                            </li>
+                                <li>
+                                    <a href=""></a>
+                                </li>
+                                <li>
+                                    <a href=""></a>
+                                </li>
                             </div>
                         </ul>
                     </div>
