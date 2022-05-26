@@ -28,7 +28,7 @@ include "/resources/include/head.php";
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="image-box">
-                            <img src="resources/images/section-2-img.jpg" alt="">
+                            <img src="resources/images/slide-picture-1.jpg" alt="">
                         </div>
                         <div class="text-box-name">
                             <h5>Hair Designer</h3>
