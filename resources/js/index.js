@@ -1,7 +1,7 @@
 //fullpage
 function fullPage_init() {
     new fullpage('#fullpage', {
-        sectionsColor: ['yellow', '#171514', '#C0C0C0', ''],
+        sectionsColor: ['yellow', '#171514', '#e1ddd1', ''],
       });    
 }
 
@@ -23,6 +23,20 @@ function slide_init() {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: { //반응형 조건 속성
+          640: { //640 이상일 경우
+            slidesPerView: 1, //레이아웃 2열
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          1460: {
+            slidesPerView: 3,
+          },
+        }
       });
 }
 
@@ -68,6 +82,26 @@ function MenuListItem__toggle() {
 $(function () {
   $('.main-menu-box > ul > li > a').click
   (MenuListItem__toggle);
+})
+
+//모바일 메뉴 로고 클릭 시 엑티브
+function MobileTopBar__toggle() {
+  
+  var $btn = $('.mobile-menu-img');
+
+  if ($btn.hasClass('active')) {
+    $btn.removeClass('active');
+    $('.mobile-menu-bar').removeClass('active');
+  }
+  else {
+    $btn.addClass('active');
+    $('.mobile-menu-bar').addClass('active');
+  }
+}
+
+$(function () {
+  $('.mobile-menu-img').click
+  (MobileTopBar__toggle);
 })
   
 

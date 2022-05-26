@@ -30,28 +30,11 @@ include "/resources/include/head.php";
                         <div class="image-box">
                             <img src="resources/images/section-2-img.jpg" alt="">
                         </div>
-                        <div class="text-box">
-                            <h4>Hair Designer</h3>
-                                <h3>서석원 원장</h3>
-                                <p>2017년 미용계 입문</p>
-                                <p>2017년 미용계 입문</p>
-                                <p>2017년 미용계 입문</p>
-                                <p>2017년 미용계 입문</p>
-                                <p>2017년 미용계 입문</p>
-                                <p>2017년 미용계 입문</p>
-                                <p>2017년 미용계 입문</p>
-                                <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-box">
-                            <img src="resources/images/section-2-img.jpg" alt="">
-                        </div>
-                        <div class="text-box-3">
+                        <div class="text-box-name">
                             <h5>Hair Designer</h3>
-                                <h6>서석원 원장</h3>
+                            <h6>서석원 원장</h3>
                         </div>
-                        <div class="text-box-4">
+                        <div class="text-box-list">
                             <p>2017년 미용계 입문</p>
                             <p>2017년 미용계 입문</p>
                             <p>2017년 미용계 입문</p>
@@ -61,43 +44,102 @@ include "/resources/include/head.php";
                             <p>2017년 미용계 입문</p>
                             <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
                         </div>
-
                     </div>
                     <div class="swiper-slide">
                         <div class="image-box">
                             <img src="resources/images/section-2-img.jpg" alt="">
+                        </div>
+                        <div class="text-box-name">
+                            <h5>Hair Designer</h3>
+                            <h6>서석원 원장</h3>
+                        </div>
+                        <div class="text-box-list">
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="image-box">
                             <img src="resources/images/section-2-img.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-box">
-                            <img src="resources/images/section-2-img.jpg" alt="">
+                        <div class="text-box-name">
+                            <h5>Hair Designer</h3>
+                            <h6>서석원 원장</h3>
+                        </div>
+                        <div class="text-box-list">
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="image-box">
                             <img src="resources/images/section-2-img.jpg" alt="">
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="image-box">
-                            <img src="resources/images/section-2-img.jpg" alt="">
+                        <div class="text-box-name">
+                            <h5>Hair Designer</h3>
+                            <h6>서석원 원장</h3>
+                        </div>
+                        <div class="text-box-list">
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="image-box">
                             <img src="resources/images/section-2-img.jpg" alt="">
                         </div>
+                        <div class="text-box-name">
+                            <h5>Hair Designer</h3>
+                            <h6>서석원 원장</h3>
+                        </div>
+                        <div class="text-box-list">
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="image-box">
                             <img src="resources/images/section-2-img.jpg" alt="">
                         </div>
-                    </div>
+                        <div class="text-box-name">
+                            <h5>Hair Designer</h3>
+                            <h6>서석원 원장</h3>
+                        </div>
+                        <div class="text-box-list">
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <p>2017년 미용계 입문</p>
+                            <a class="btn-1" href="https://codepen.io/jangka44/live/xxwxZWJ">예약하기</a>
+                        </div>
+                    </div>                    
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -106,13 +148,13 @@ include "/resources/include/head.php";
         <section class="section common section_part_3 section-3" data-anchor="section-3">
             <div class="section-3-box">
                 <h3>ABOUT</h3>
-                <div class="sectiob-3-main-text">
+                <div class="section-3-main-text">
                     바쁜 현대 사회에서 쉼이 필요할 때, (나를 가꿀 수 있는 공간,) <br>
                     ZOE-ROOM에서 <br>
-                    -------- <br>
                 </div>
-                <div class="text-box flex">
-                    <div class="text-box-list-1">
+                <span class="bar"></span>
+                <div class="text-box clearfix">
+                    <div class="text-box-list text-box-list-1">
                         <strong>
                             Natural Space with Flowers and Trees
                             <br>
@@ -124,7 +166,7 @@ include "/resources/include/head.php";
                             곳곳에 어우러진 꽃과 나무의 부드러운 정취가 살아있습니다.
                         </p>
                     </div>
-                    <div class="text-box-list-2">
+                    <div class="text-box-list text-box-list-2">
                         <strong>
                             Romantic Salon with Greek Goddess
                             <br>
@@ -136,7 +178,7 @@ include "/resources/include/head.php";
                             열정적이고 아름다우며 당당한 여신처럼 고객의 아름다움도 당당하게 표현하는 곳입니다.
                         </p>
                     </div>
-                    <div class="text-box-list-3">
+                    <div class="text-box-list text-box-list-3">
                         <strong>
                             Optimizing Bespoke Service with Beauty Experts
                             <br>
@@ -150,9 +192,10 @@ include "/resources/include/head.php";
                     </div>
                 </div>
                 <div class="img-box">
-                    <img src="" alt="">
+                    <img src="resources/images/main-picture-1.jpg" alt="">
                 </div>
             </div>
+            <div class="bg"></div>
         </section>
         <section class="section common section_part_4 section-4" data-anchor="section-4">
             <div class="section-4-left">
@@ -169,7 +212,16 @@ include "/resources/include/head.php";
                     <li>
                         <strong>예약/상담</strong>
                         <p>043-4646-4646</p>
-                        <p>www.</p>
+                        <p>
+                            <a href="https://hairshop.kakao.com/shops/8167/stylers/70176">예약페이지로 넘어가기</a>
+                        </p>
+                    </li>
+                    <li>
+                        <strong>SNS</strong>
+                        <p>zoe-room youtube</p>
+                        <p>
+                            zoe-room instagram
+                        </p>
                     </li>
                     <li>
                         <strong>영업시간</strong>
@@ -180,37 +232,7 @@ include "/resources/include/head.php";
                         <p>하늘 서적 옆</p>
                     </li>
                 </ul>
-                <section class="content-box">
-                    <div class="content-box-inner">
-                        <li class="content-box-left">
-                            <a href="">
-                                <h3>zoe-room YOUTUBE</h3>
-                            </a>
-                        </li>
-                        <ul class="content-box-right">
-                            <a href="">
-                                <h3>zoe-room INSTAGRAM</h3>
-                            </a>
-                            <div class="inner">
-                                <li>
-                                    <a href=""></a>
-                                </li>
-                                <li>
-                                    <a href=""></a>
-                                </li>
-                            </div>
-
-                            <div class="inner">
-                                <li>
-                                    <a href=""></a>
-                                </li>
-                                <li>
-                                    <a href=""></a>
-                                </li>
-                            </div>
-                        </ul>
-                    </div>
-                </section>
+                
             </div>
             <div class="section-4-right">
                 <div id="map" style="width:100%;height:100%;"></div>

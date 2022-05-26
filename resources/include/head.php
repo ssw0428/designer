@@ -42,13 +42,13 @@
 <body>
     <!--메인 메뉴바-->
 
-    <div class="main-menu-logo">
+    <div class="main-menu-logo visible-md-up">
         <div class="img-box">
             <img src="resources/images/main-logo-1.png" alt="">
         </div>
     </div>
-    
-    <section class="main-menu-box">
+
+    <section class="main-menu-box visible-md-up">
         <div class="logo">
             <div class="img-box">
                 <img src="resources/images/main-logo-2.png" alt="">
@@ -76,36 +76,32 @@
             </div>
         </div>
     </section>
-    <!--
-    <header id="main-menu-box" class="main-menu-bar">
-        <div class="inner">
-            <div class="width-size con">
-                <nav class="menu-bar">
-                    <ul class="height-100p">
-                        <li data-menuanchor="section-1" class="active" id="btn1">
-                            <a class="height-100p" href="#section-1">
-                                <span>01</span>
-                            </a>
-                        </li>
-                        <li data-menuanchor="section-2" id="btn2">
-                            <a class="height-100p" href="#section-2">
-                                <span>02</span>
-                            </a>
-                        </li>
-                        <li data-menuanchor="section-3" id="btn3">
-                            <a class="height-100p" href="#section-3">
-                                <span>03</span>
-                            </a>
-                        </li>
-                        <li  data-menuanchor="section-4" id="btn4">
-                            <a class="height-100p" href="#section-4">
-                                <span>04</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
 
+    <div class="mobile-top-bar visible-sm-down clearfix">
+        <div class="mobile-logo clearfix">
+            <div class="img-box">
+                <img src="resources/images/main-logo-2.png" alt="">
             </div>
         </div>
-    </header>
--->
+        <div class="mobile-menu-img clearfix">
+            <div class="img-box">
+                <img src="resources/images/main-logo-1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section class="mobile-menu-bar">
+        <ul class="mobile-menu-list">
+            <li data-menuanchor="section-1" class="active" id="btn1">
+                <a class="active" href="#section-1">HOME</a>
+            </li>
+            <li data-menuanchor="section-2" id="btn2">
+                <a href="#section-2">ABOUT</a>
+            </li>
+            <li data-menuanchor="section-3" id="btn3">
+                <a href="#section-3">DESIGNER</a>
+            </li>
+            <li data-menuanchor="section-4" id="btn4">
+                <a href="#section-4">CONTACT</a>
+            </li>
+        </ul>
+    </section>
